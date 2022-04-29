@@ -2,19 +2,8 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color: #a9a9a9;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,11 +17,26 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p,
+a,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+}
+
+.main__pokemon-container {
+  display: flex;
+  margin: 24px auto;
+  padding: 24px 48px;
+  background: #b0c2a2;
+  border-radius: 15px;
+}
+
+.main__pokemon-list {
+  list-style: none;
+  text-align: left;
 }
